@@ -1,0 +1,42 @@
+<h1>Control Statements</h1>
+A programming language uses control statements to cause the flow of execution to advance
+and branch based on changes to the state of a program. 
+Java’s program control statements
+can be put into the following categories: selection, 
+iteration, and jump. Selection statements
+allow your program to choose different paths of execution based upon the outcome of an
+expression or the state of a variable. 
+Iteration statements enable program execution to
+repeat one or more statements (that is,
+ iteration statements form loops). 
+ Jump statements
+allow your program to execute in a nonlinear fashion. 
+All of Java’s control statements are
+examined here.-653
+<h2 id="second_heading">Java’s Selection Statements</h2>
+Java supports two selection statements: if and switch. 
+These statements allow you to control
+the flow of your program’s execution based upon conditions known only during run time.
+You will be pleasantly surprised by the power and flexibility contained in these two statements.
+if
+The if statement was introduced in Chapter 2.
+ It is examined in detail here. The if statement
+is Java’s conditional branch statement. It can be used to route program execution through
+two different paths. 
+Here is the general form of the if statement:
+if (condition) statement1;
+else statement2;
+Here, each statement may be a single statement or a compound statement enclosed in curly
+braces (that is, a block). 
+The condition is any expression that returns a boolean value. 
+The
+else clause is optional.
+The if works like this: If the condition is true, then statement1 is executed. 
+Otherwise,
+statement2 (if it exists) is executed.
+ In no case will both statements be executed. For example,
+consider the following:
+int a, b;
+//...
+if(a < b) a = 0;
+else b = 0;
